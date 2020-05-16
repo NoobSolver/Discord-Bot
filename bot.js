@@ -34,7 +34,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             case 'Hi':
                 bot.sendMessage({
                     to: channelID,
-                    message: 'Welcome to Programming Enigma!'
+                    message: 'Welcome to Programming Enigma😀️😀️!'
                 });
             // case 'Hello':
             //     bot.sendMessage({
@@ -45,4 +45,5 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 // Just add any case commands if you want to..
         }
      }
+ }
 });
